@@ -1,0 +1,4 @@
+<apex:page standardController="Account">
+    <h1>Display a single Account</h1>
+    <apex:detail />
+</apex:page>

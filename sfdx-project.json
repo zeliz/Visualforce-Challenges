@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "VF CHALLENGES",
+  "namespace": "",
+  "sfdcLoginUrl": "https://resilient-fox-6lnczb-dev-ed.my.salesforce.com/",
+  "sourceApiVersion": "52.0"
+}
