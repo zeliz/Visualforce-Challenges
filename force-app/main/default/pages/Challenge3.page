@@ -1,0 +1,27 @@
+<apex:page standardController="Account" recordSetVar="allAccounts" extensions="ChallengeExtension">
+    <h1>Add Greeting with Account Name, and alert when clicking button</h1>
+    <br />
+    <apex:outputText value="{!Greeting}" />
+    <br />
+    <br />
+    <apex:form>
+        <apex:commandButton action="{!MyAction}" value="Do the thing" />
+        <p>{!message}</p>
+        <apex:pageBlock>
+            <apex:pageBlockButtons>
+                <apex:commandButton action="{!Previous}" value="Previous" />
+                <apex:commandButton action="{!Next}" value="Next" />
+            </apex:pageBlockButtons>
+    
+            <apex:pageBlockTable value="{!allAccounts}" var="acct">
+                <apex:column value="{!acct.name}" />
+                <apex:column value="{!acct.phone}" />
+                <apex:column value="{!acct.website}" />
+                <apex:column value="{!acct.id}" />
+            </apex:pageBlockTable>
+    
+        </apex:pageBlock>
+    </apex:form>
+
+    <apex:detail />
+</apex:page>
