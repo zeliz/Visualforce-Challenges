@@ -1,0 +1,20 @@
+<apex:page controller="Challenge4Controller">
+    <apex:stylesheet value="{!$Resource.Challenge6CSS}" />
+    <h1>Style a previous challenge page with CSS</h1>
+    <table>
+        <th>
+            Account Details:
+        </th>
+        <tr><td>Name:</td>
+            <td>{!staticAccount.name}</td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td>{!staticAccount.phone}</td>
+        </tr>
+        <tr>
+            <td>Website:</td>
+            <td>{!staticAccount.website}</td>
+        </tr>
+    </table>
+</apex:page>
