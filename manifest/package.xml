@@ -10,7 +10,16 @@
         <members>Challenge2</members>
         <members>Challenge3</members>
         <members>Challenge4</members>
+        <members>Challenge5</members>
         <name>ApexPage</name>
+    </types>
+    <types>
+      <members>Biography</members>
+      <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Translations</name>
     </types>
     <!-- <types>
         <members>*</members>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>Mi nombre es Zach. Disfruto leer y caminar, y mi puesto de trabajo es Desarrollador de software. La mejor comida del mundo es la pizza.</label>
+        <name>Biography</name>
+    </customLabels>
+</Translations>

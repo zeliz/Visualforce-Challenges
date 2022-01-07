@@ -1,8 +1,8 @@
 <apex:page standardController="Account" recordSetVar="allAccounts">
     <h1>Display paginated table of Accounts</h1>
-    <apex:form>
-        <apex:pageBlock>
-            <apex:pageBlockButtons>
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
                 <apex:commandButton action="{!Previous}" value="Previous" />
                 <apex:commandButton action="{!Next}" value="Next" />
             </apex:pageBlockButtons>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Biography</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Biography</shortDescription>
+        <value>My name is Zach. I enjoy reading and walking, and my job title is Software Developer. The best food in the world is pizza.</value>
+    </labels>
+</CustomLabels>

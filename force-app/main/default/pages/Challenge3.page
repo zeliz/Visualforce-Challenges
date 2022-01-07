@@ -4,11 +4,11 @@
     <apex:outputText value="{!Greeting}" />
     <br />
     <br />
-    <apex:form>
+    <apex:form >
         <apex:commandButton action="{!MyAction}" value="Do the thing" />
         <p>{!message}</p>
-        <apex:pageBlock>
-            <apex:pageBlockButtons>
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
                 <apex:commandButton action="{!Previous}" value="Previous" />
                 <apex:commandButton action="{!Next}" value="Next" />
             </apex:pageBlockButtons>

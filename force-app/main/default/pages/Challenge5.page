@@ -1,0 +1,4 @@
+<apex:page renderAs="pdf">
+    <h1>About me</h1>
+    <apex:outputText value="{!$Label.Biography}" />
+</apex:page>
