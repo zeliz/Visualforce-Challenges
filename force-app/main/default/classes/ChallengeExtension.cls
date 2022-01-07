@@ -41,12 +41,22 @@ public class ChallengeExtension {
     private String alertName = '';
     public void MyAction() {
         if (alertName == '') {
-            alertName = 'Alert: Your name is ' + pageAccount.name;
+            Account a = getAccount();
+            alertName = 'Alert: Your name is '
+                + ((a != null) ? getAccount().name : 'Unknown');
         } else {
             alertName = '';
         }
     }
     public String getMessage() {
         return alertName;
+    }
+    public Account getAccount() {
+        ID acctId = ApexPages.currentPage().getParameters().get('id');
+        List<Account> aList = [SELECT name FROM Account WHERE id = :acctId];
+        if (aList.size() != 1) {
+            return null;
+        }
+        return aList[0];
     }
 }

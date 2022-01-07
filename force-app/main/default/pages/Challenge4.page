@@ -1,0 +1,19 @@
+<apex:page controller="Challenge4Controller">
+    <h1>Display a single Account, unlinked to URL, from custom controller</h1>
+    <table>
+        <th>
+            <td>Account Details:</td>
+        </th>
+        <tr><td>Name:</td>
+            <td>{!staticAccount.name}</td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td>{!staticAccount.phone}</td>
+        </tr>
+        <tr>
+            <td>Website:</td>
+            <td>{!staticAccount.website}</td>
+        </tr>
+    </table>
+</apex:page>
